@@ -8,7 +8,7 @@ import RegisterScreen from '../auth/RegisterScreen';
 import WelcomeScreen from '../auth/WelcomeScreen';
 import LoginScreen from '../auth/LoginScreen';
 import Profile from '../components/profile';
-import DeviceDetailsScreen from '../screens/DeviceDetailsScreen'; // Ensure correct import
+import DeviceDetailsScreen from '../screens/DeviceDetailsScreen'; 
 import ReservationForm from '../components/ReservationForm';
 
 const Stack = createStackNavigator();

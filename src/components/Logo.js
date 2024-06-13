@@ -1,4 +1,3 @@
-// components/Logo.js
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
 
@@ -6,7 +5,7 @@ const Logo = () => {
   return (
     <View style={styles.logoContainer}>
       <Image
-        source={require('../assets/images/logo.png')} // Ścieżka do obrazu logo
+        source={require('../assets/images/logo.png')} 
         style={styles.logoImage}
         resizeMode="contain"
       />
